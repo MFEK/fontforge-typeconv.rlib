@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 fontforge-sys = { git = "https://github.com/MFEK/fontforge-sys.rlib" }
-glifparser = { git = "https://github.com/MFEK/glifparser.rlib" }
+glifparser = { git = "https://github.com/MFEK/glifparser.rlib", branch = "master", default-features = false }
